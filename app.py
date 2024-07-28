@@ -112,11 +112,11 @@ if st.button("Emitir Relatório"):
                 st.write("\nPrincipais pontos negativos:")
                 st.write(negative_points)
                 # Salvar a tabela de estatísticas em um arquivo CSV
-                stats_file_path = 'nps_sentiment_statistics.csv'
-                stats_df.to_csv(stats_file_path, index=False)
+                #stats_file_path = 'nps_sentiment_statistics.csv'
+                #stats_df.to_csv(stats_file_path, index=False)
                 # Salvar o DataFrame atualizado em um novo arquivo CSV
-                updated_file_path = 'nps_respostas_com_sentimento.csv'
-                df.to_csv(updated_file_path, index=False)
+                #updated_file_path = 'nps_respostas_com_sentimento.csv'
+                #df.to_csv(updated_file_path, index=False)
             else:
                 st.warning("Análise de sentimento desabilitada ou chave de API não fornecida.")
 
