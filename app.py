@@ -4,7 +4,6 @@ from openai import OpenAI
 from collections import Counter
 import re
 
-
 # Função para calcular o NPS
 def calcular_nps(respostas):
     """Calcula o NPS com base na lista de respostas."""
