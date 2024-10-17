@@ -1,5 +1,5 @@
 openai==1.37.1
 pandas==2.0.3
 streamlit==1.37.0
-collections
+Collections
 re
